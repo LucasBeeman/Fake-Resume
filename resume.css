@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bodyWrapper{
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: black;
+    height: 100%;
+}
+#leftColumn{
+    float: left;
+    height: 100%;
+    background-color:rgb(39, 39, 39);
+    min-width: 20%;
+    max-width: 200px;
+    padding: 10px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#leftColumn hr{
+    width: 50%;
+    margin-bottom: 10px;
+}
+aside{
+    margin-top: 25px;
+}
+
+#mainBody{
+    min-width:10% ;
+    /* float: left; */
+    height: 1000px;
+    background-color:rgb(255, 255, 255);
+    
+}
+ #profilePic{
+    padding: 10px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+ }
+
+ label{
+     background-color: white;
+ }
+
+
+
+#rightHeader{
+    min-height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+
+
+#headerStyle{
+    height: 20px;
+}
+
+.icon{
+    fill: white;
+    height: 30px;
+    padding: 5px;
+}
+
+
+/* Top Bar */
+#colorOne{
+    background-color: rgb(38, 132, 255);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorTwo{
+    background-color:rgb(48, 102, 202);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorThree{
+    background-color: rgb(11, 23, 56);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#colorFour{
+    background-color:rgb(2, 0, 95);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(38, 132, 255);
+}
+
+h2{
+    text-align: left;
+}
+
+#rightColumn hr{
+    margin-right: 73%;
+    height:4px;
+    background-color: lightblue;
+    border-style: none;
+    
+}
+
+#rightColumn td{
+padding-left: 100px;
+padding-right: 250px;
+}
+
+#rightColumn{
+    background-color: white;
+    width: 1903px;
+    height: 1253px;
+}
+
+#rightColumn h1{
+    color: black;
+}
+
+#ContactList{
+    color: black;
+}
+
